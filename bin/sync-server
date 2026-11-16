@@ -1,0 +1,8 @@
+#!/bin/sh
+# Refreshes the bundled server from a ping-monitor checkout.
+set -eu
+
+ROOT="$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)"
+SOURCE="${1:-$HOME/projects/ping-monitor}"
+cp "$SOURCE/ping_server.py" "$SOURCE/monitor_common.py" "$ROOT/server/"
+echo "Synced the server from $SOURCE"

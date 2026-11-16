@@ -1,0 +1,4 @@
+{
+  "%n hosts": { "one": "%n host", "other": "%n hosts" },
+  "%n missed in a row": { "one": "%n missed ping", "other": "%n missed in a row" }
+}

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Ping Monitor
+Name[da]=Ping Monitor
+Comment=Live latency for the hosts you ping
+Comment[da]=Live svartid for de værter du pinger
+Exec=pingmon
+Icon=pingmon
+Terminal=false
+Categories=Network;Utility;
+StartupWMClass=pingmon
